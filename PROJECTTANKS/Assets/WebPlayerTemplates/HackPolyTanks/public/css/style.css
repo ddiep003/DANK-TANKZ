@@ -1,0 +1,69 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	background: black;
+}
+
+.joystick {
+	position: absolute;
+	width: 50vw;
+	height: 100vw;
+	margin: 0;
+	padding: 0;
+}
+.actions {
+	width: 60px;
+	height: 60px;
+	background-color: red;
+}
+#shoot{
+	position:fixed;
+	top:20px;
+	left:400px;
+}
+
+#jump{
+	position:fixed;
+	top:80px;
+	left:400px;
+}
+#movement {
+	top: 0;
+	left: 0;
+}
+
+#shooting {
+	top: 0;
+	right: 0;
+}
+
+.joypad{
+	width: 60px;
+	height: 60px;
+	background-color: yellow;
+}
+
+#up {
+	position:fixed;
+	left: 80px;
+	top: 20px;
+}
+
+#down {
+	position:fixed;
+	left: 80px;
+	top: 160px;
+}
+
+#left {
+	position:fixed;
+	left:10px;
+	top: 100px;
+}
+
+#right {
+	position:fixed;
+	left:120px;
+	top: 100px;
+}
+
